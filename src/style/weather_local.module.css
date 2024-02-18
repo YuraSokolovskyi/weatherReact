@@ -1,0 +1,99 @@
+.container {
+  background-color: rgba(186, 183, 183, 0.356);
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.344);
+}
+.local_container {
+  width: 30%;
+  margin-right: 55px;
+}
+.current_container {
+  width: 62%;
+  height: 26vh;
+  padding: 15px 24px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.current_forecast{
+  flex: 1;
+  height: 330px;
+  box-sizing: border-box;
+  padding: 26px 24px;
+}
+
+.date_box {
+  padding-top: 53px;
+  padding-left: 0;
+  list-style: none;
+}
+.cityName {
+  font-size: calc(30% / 20 * 100);
+  font-weight: 900;
+  margin-bottom: calc(100vh / 50);
+}
+.time {
+  font-size: calc(30% / 8 * 100);
+  font-weight: 900;
+}
+.current_box {
+  display: flex;
+}
+.condition {
+  width: 40%;
+}
+.temp_box,
+.metrix {
+  width: 30%;
+}
+.temp {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.temp_feel {
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 5vh;
+  color: tomato;
+}
+.metrix {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+.metrix_card {
+  width: 70px;
+  margin-bottom: 2vh;
+}
+.metrix img {
+  width: 6vh;
+}
+.metrix_text {
+  font-weight: 900;
+  font-size: 15px;
+}
+.secondary_text {
+  font-size: 12px;
+}
+.condition img {
+  width: 20vh;
+  height: 20vh;
+}
+
+.main_container{
+  padding: 0 80px;
+}
+
+.forecast_container{
+  display: flex;
+  height: 336px;
+}
+
+.hourly_forecast_container{
+  background-color: rgba(186, 183, 183, 0.356);
+  border-radius: 30px;box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.344);
+  flex: 1;
+}

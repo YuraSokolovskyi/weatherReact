@@ -1,0 +1,42 @@
+.articlesContainer {
+  width: 100%;
+  height: 100vw;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.article {
+  width: 50%;
+  height: 30%;
+  background-size: cover;
+}
+.atc_text {
+  background-color: rgba(0, 0, 0, 0.29);
+  width: 88%;
+  height: 80%;
+  text-align: start;
+  padding: 6%;
+  color: white;
+  cursor: pointer;
+  backdrop-filter: blur(0); /* Початкове значення без розмиття */
+  transition: backdrop-filter 0.5s ease;
+}
+.atc_text:hover {
+  backdrop-filter: blur(4px);
+}
+form {
+  margin-top: 50px;
+}
+.searchInput {
+  font-size: 1em;
+  margin-right: 30px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(20, 104, 248);
+  color: rgb(20, 104, 248);
+}
